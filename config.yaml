@@ -1,0 +1,26 @@
+
+model: BottleneckHybridGNN
+
+datasets:
+  - Cora
+  - CiteSeer
+  - PubMed
+  - Computers
+
+training:
+  learning_rate: 0.01
+  weight_decay: 0.0005
+  dropout: 0.6
+  epochs: 30
+  runs: 2
+
+optimizer:
+  type: Adam
+
+hardware:
+  device: cuda_if_available
+
+outputs:
+  save_checkpoints: true
+  save_metrics: true
+  save_plots: true

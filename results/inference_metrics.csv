@@ -1,0 +1,5 @@
+dataset,test_accuracy
+Cora,0.803
+CiteSeer,0.703
+PubMed,0.77
+Computers,0.8738640494365685
